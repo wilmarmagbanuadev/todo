@@ -3,7 +3,7 @@ import {Text,TouchableOpacity,View,StyleSheet,Alert} from 'react-native';
 import MytextInput from '../components/MyTextInput';
 import TopBarHeading from '../components/TopBarHeading';
 import { openDatabase } from 'react-native-sqlite-storage';
-
+// comment
 var db = openDatabase({ name: 'todo.db' });
 
 const AddTask = ({ navigation }) => {
