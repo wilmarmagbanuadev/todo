@@ -4,18 +4,26 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 
-import HomeScreen from '../pages/Home';
-import AddTaskScreen from '../pages/AddTask';
-import ViewTaskScreen from '../pages/ViewTask';
-import EditTaskScreen from '../pages/EditTask';
+// import HomeScreen from '../../pages/Home';
+// import AddTaskScreen from '../../pages/AddTask';
+// import ViewTaskScreen from '../../pages/ViewTask';
+// import EditTaskScreen from '../../pages/EditTask';
 
-
+import LandingScreen from '../../screens/LandingScreen/index';
+import HomeScreen from '../../screens/MainScreen/Home/Index';
 const Stack = createStackNavigator();
 
-function MyNavigation() {
+function MainNavigation() {
   return (
     <NavigationContainer>
-    <Stack.Navigator initialRouteName="Home">
+    <Stack.Navigator initialRouteName="Landing">
+    <Stack.Screen
+        name="Landing"
+        component={LandingScreen}
+        options={{
+          headerShown: false
+        }}
+      />
       <Stack.Screen
         name="Home"
         component={HomeScreen}
@@ -23,7 +31,7 @@ function MyNavigation() {
           headerShown: false
         }}
       />
-      <Stack.Screen
+      {/* <Stack.Screen
         name="AddTask"
         component={AddTaskScreen}
         options={{
@@ -43,11 +51,11 @@ function MyNavigation() {
         options={{
           headerShown: false
         }}
-      />
+      /> */}
       
     </Stack.Navigator>
   </NavigationContainer>
   );
 };
 
-export default MyNavigation;
+export default MainNavigation;
