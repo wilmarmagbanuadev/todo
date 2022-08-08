@@ -1,0 +1,129 @@
+import {StyleSheet} from 'react-native';
+const styles = StyleSheet.create({
+    container:{
+        flex:1,
+    },
+    bgImage: {
+        flex: 1,
+        padding:10,
+    },
+    profileSec:{
+        flexDirection:'row',
+        justifyContent:'space-between',
+        alignItems:'center',
+        backgroundColor:'#fff',
+        paddingVertical:20,
+        paddingHorizontal:20,
+        borderRadius:10,
+        elevation: 5,
+        marginVertical:5,
+    },
+    actSec:{
+        flexDirection:'column',
+        backgroundColor:'#fff',
+        paddingVertical:10,
+        paddingHorizontal:10,
+        borderRadius:10,
+        marginVertical:5,
+        elevation: 5
+    },
+    catSec:{
+        flexDirection:'column',
+        backgroundColor:'#fff',
+        paddingVertical:10,
+        paddingHorizontal:10,
+        borderRadius:10,
+        marginVertical:5,
+        elevation: 5
+    },
+    onGiongSec:{
+        flex:1,
+        flexDirection:'column',
+        backgroundColor:'#fff',
+        paddingVertical:10,
+        paddingHorizontal:10,
+        borderRadius:10,
+        marginTop:5,
+        marginBottom:10,
+        elevation: 5
+    },
+    secHeadingL:{
+        fontSize:18,
+        color:'#011833',
+        fontWeight:'bold'
+    },
+    secHeadingR:{
+        fontSize:18,
+        color:'#2389fe',
+        fontWeight:'bold'
+    },
+    catRow:{
+        paddingVertical:20,
+        paddingHorizontal:10,
+        backgroundColor:'#fff',
+        elevation:5,
+        borderRadius:10,
+        flex:1,
+        marginHorizontal:10,
+    },
+    catRowHeadingIcon:{
+        flexDirection:'row',
+    },
+    catRowHeading:{
+        fontSize:15,
+        color:'#011833',
+        fontWeight:'bold',
+    },
+    catRowIcon:{
+        fontSize:12,
+        backgroundColor:'#ffd561',
+        padding:5,
+        borderRadius:20,
+    },
+    catRowGoTask:{
+        marginTop:15,
+        color:'#2389fe',
+        fontSize:15,
+        fontWeight:'900'
+    },
+    onTaskCon:{
+        elevation:3,
+        borderRadius:10,
+        paddingVertical:20,
+        paddingHorizontal:10,
+        marginVertical:10
+    },
+    onTaskConLeftBar:{
+        position:'absolute',
+        width:3,
+        height:'100%',
+        left:0,
+        top:20,
+        borderRadius:10
+    },
+    onTaskElips:{
+        position:'absolute',
+        right:5,
+        color:'#011833',
+        fontSize:25
+    },
+    onTaskHeading:{
+        fontSize:30,
+        color:'#2389fe',
+        fontWeight:'bold'
+    },
+    onTaskDesc:{
+        fontSize:14,
+        color:'#011833',
+        fontWeight:'bold'
+    },
+    onTaskDue:{
+        color:'grey',fontSize:12,fontWeight:'bold',marginTop:10,marginBottom:5
+    },
+    onTaskDate:{
+        color:'grey',fontSize:10,fontWeight:'bold'
+    }
+
+});
+  
+export default styles;

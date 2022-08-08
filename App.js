@@ -1,5 +1,5 @@
 import * as React from 'react';
-import MyNavigation from './src/navigations/MainNavigation/Index';
+import MyNavigation from './src/navigations/index';
 
 function App() {
   return (

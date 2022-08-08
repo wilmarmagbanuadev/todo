@@ -7,13 +7,13 @@ const styles = StyleSheet.create({
     secGotoLogIn:{
         flexDirection:'row',
         justifyContent:'space-between',
+        alignItems:'center',
     },
     bgImage: {
-        flex: 1,
         paddingVertical:5,
         paddingHorizontal:15,
-        flexDirection:'column',
-        justifyContent:'flex-end'
+        flex:1,
+        justifyContent:'center'
     },
     appLogo:{
         width:50,
