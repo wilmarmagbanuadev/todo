@@ -8,7 +8,7 @@ import { useNavigation } from '@react-navigation/native';
 
    return (
     
-    <View  style={props.text==null ? null : styles.headCon}>
+    <View style={props.text==null ? null : styles.headCon}>
       {props.back!=null? 
         <TouchableOpacity  style={{marginHorizontal:10}} onPress={() =>navigation.navigate(props.back)}>
           <Icon name="arrow-left" style={{fontSize:20,color:'#0076ff'}}/>

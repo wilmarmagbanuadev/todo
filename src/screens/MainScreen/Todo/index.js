@@ -11,18 +11,18 @@ const image = { uri: "https://img.freepik.com/free-vector/white-abstract-backgro
         <View style={{flex:1}}>
           <TopBarHeading text="List of Activities" back="MainScreen"/>
           <ImageBackground source={image} resizeMode="cover" style={{flex:1}}>
-          <ScrollView style={{paddingHorizontal:10,paddingVertical:10}}>
-            <ActivityList/>
-            <ActivityList/>
-            <ActivityList/>
-            <ActivityList/>
-            <ActivityList/>
-            <ActivityList/>
-            <ActivityList/>
-            <ActivityList/>
-            <ActivityList/>
-            <ActivityList/>
-            <ActivityList/>
+          <ScrollView style={{paddingHorizontal:15,marginBottom:60}}>
+            <ActivityList text="1"/>
+            <ActivityList text="2"/>
+            <ActivityList text="3"/>
+            <ActivityList text="4"/>
+            <ActivityList text="5"/>
+            <ActivityList text="6"/>
+            <ActivityList text="7"/>
+            <ActivityList text="8"/>
+            <ActivityList text="9"/>
+            <ActivityList text="10"/>
+            <ActivityList text="11"/>
           </ScrollView>
            
           </ImageBackground>
